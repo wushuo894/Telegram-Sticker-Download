@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         电报贴图下载
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/W2725730722/Telegram-Sticker-Download
 // @version      0.1
 // @author       wushuo
 // @match        https://web.telegram.org/z/
