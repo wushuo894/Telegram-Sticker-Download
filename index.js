@@ -10,12 +10,12 @@
 // ==/UserScript==
 
 setInterval(() => {
-    let ssf = document.querySelector('.popup-body > .sticker-set-footer');
+    let ssf = document.querySelector('.popup-body .popup-footer');
     if (!ssf) {
         return;
     }
 
-    if (document.querySelector('.popup-body > .sticker-set-footer > #stickerDownloadButton')) {
+    if (document.querySelector('.popup-body #stickerDownloadButton')) {
         return;
     }
 
