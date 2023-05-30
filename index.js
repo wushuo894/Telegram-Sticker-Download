@@ -19,11 +19,16 @@ setInterval(() => {
         return;
     }
 
+    let span = document.createElement('span');
+    span.textContent = '            '
+
+
     let downloadButton = document.createElement('button');
     downloadButton.id = 'stickerDownloadButton';
     downloadButton.className = 'btn-primary btn-color-primary';
     downloadButton.textContent = '贴图下载'
 
+    ssf.append(span)
     ssf.append(downloadButton)
 
 
